@@ -1,4 +1,4 @@
-/* XOmB Bare Bones
+/* kRaken
  *
  * This is the bare minimum needed for an OS written in the D language.
  *
@@ -28,7 +28,7 @@ import architecture;
 extern(C) void kmain(int bootLoaderID, void *data)
 {
 
-	kprintfln!("{!cls}Welcome to {}! (version {}.{}.{})")("XOmB Bare Bones", 1,0,0);
+	kprintfln!("{!cls}Welcome to {}! (version {}.{}.{})")("kRaken", 0,0,1);
 
 
 	kprintfln!("{x} {x}")(bootLoaderID, data);
