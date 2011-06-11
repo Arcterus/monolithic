@@ -9,7 +9,7 @@ import kernel.dev.console;
 // Contains some nice logic and cool templates.
 import kernel.core.util;
 
-
+import architecture.mutex;
 
 
 /* This template will generate code for printing and will do
