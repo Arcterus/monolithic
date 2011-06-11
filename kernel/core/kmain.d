@@ -15,6 +15,9 @@ import kernel.core.kprintf;
 // This module contains the architecture specific modules
 import architecture;
 
+// This module contains the default apps that come with kRaken
+import kernel.core.apps;
+
 
 
 // The main function for the kernel.
